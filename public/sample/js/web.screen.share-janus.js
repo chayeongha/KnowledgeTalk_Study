@@ -16,8 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let janusScreenShareStream;
     let configuration;
   
-  
-  
     signalSocketIo.on('knowledgetalk', function (data) {
       tLogBox('receive', data);
   
